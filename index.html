@@ -1,4 +1,127 @@
-<htmal>
-<h1>Muhammad Ali's Portfolio</h1>
-<img src="./ProfilePic.jpeg"/>
-</htmal>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h1>Welcome to My Portfolio</h1>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://youtu.be/zHn5ltR_PKA" allowfullscreen></iframe>
+        </div>
+        <h2>About Me</h2>
+        <img src="your_photo.jpg" alt="Your Photo" class="img-fluid rounded-circle" width="150">
+        <p>
+          Hi, I'm [Your Name], a passionate developer with skills in [list skills]. 
+          You can check my work on <a href="https://github.com/MuhammadAliCheema">GitHub</a> and connect with me on 
+          <a href="https://linkedin.com/in/your_linkedin_username">LinkedIn</a>. Feel free to 
+          <a href="mailto:alimasoodcheema.ea@gmail.com">contact me</a> anytime.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+projects.html (Projects Page)
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">My Portfolio</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>My Projects</h1>
+        <div class="project">
+          <h2>PacMen Exercise</h2>
+          <p>Description: This project involves creating multiple PacMen that move across the screen.</p>
+          <a href="https://github.com/MuhammadAliCheema/pacmen.git" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+          <h2>Eye Exercise</h2>
+          <p>Description: This project involves creating an interactive eye that follows the mouse cursor.</p>
+          <a href="https://github.com/MuhammadAliCheema/EyeExercise.git" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+          <h2>Real Time Bus Tracking</h2>
+          <p>Description: This project involves creating a real-time bus tracking application using Map APIs.</p>
+          <a href="https://github.com/MuhammadAliCheema/RealTime-BusTracking.git" target="_blank">View on GitHub</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+CSS Styles (styles.css)
+css
+Copy code
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.container {
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+.project h2 {
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin-bottom: 10px;
+}
+
+.project a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}

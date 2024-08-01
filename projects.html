@@ -6,38 +6,51 @@
   <title>My Projects</title>
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand" href="index.html">My Portfolio</a>
-    <div class="collapse navbar-collapse">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="index.html#introduction">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
       </ul>
     </div>
   </nav>
-  <div class="container">
+  <div class="container mt-5">
     <div class="row">
       <div class="col-md-12">
-        <h1>My Projects</h1>
-        <div class="project">
-          <h2>PacMen Exercise</h2>
-          <p>Description: This project involves creating multiple PacMen that move across the screen.</p>
-          <a href="https://github.com/MuhammadAliCheema/pacmen.git" target="_blank">View on GitHub</a>
+        <h1 class="display-4 text-center">My Projects</h1>
+        <div class="card mt-4">
+          <div class="card-body">
+            <h2 class="card-title">PacMen Exercise</h2>
+            <p class="card-text">Description: This project involves creating multiple PacMen that move across the screen.</p>
+            <a href="https://github.com/MuhammadAliCheema/pacmen.git" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
         </div>
-        <div class="project">
-          <h2>Eye Exercise</h2>
-          <p>Description: This project involves creating an interactive eye that follows the mouse cursor.</p>
-          <a href="https://github.com/MuhammadAliCheema/EyeExercise.git" target="_blank">View on GitHub</a>
+        <div class="card mt-4">
+          <div class="card-body">
+            <h2 class="card-title">Eye Exercise</h2>
+            <p class="card-text">Description: This project involves creating an interactive eye that follows the mouse cursor.</p>
+            <a href="https://github.com/MuhammadAliCheema/EyeExercise.git" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
         </div>
-        <div class="project">
-          <h2>Real Time Bus Tracking</h2>
-          <p>Description: This project involves creating a real-time bus tracking application using Map APIs.</p>
-          <a href="https://github.com/MuhammadAliCheema/RealTime-BusTracking.git" target="_blank">View on GitHub</a>
+        <div class="card mt-4">
+          <div class="card-body">
+            <h2 class="card-title">Real Time Bus Tracking</h2>
+            <p class="card-text">Description: This project involves creating a real-time bus tracking application using Map APIs.</p>
+            <a href="https://github.com/MuhammadAliCheema/RealTime-BusTracking.git" target="_blank" class="btn btn-primary">View on GitHub</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
